@@ -1,0 +1,7 @@
+{
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "build": "deno run -A npm:next build",
+    "start": "deno run --unstable-bare-node-builtins --allow-net --allow-env --allow-read --allow-write --allow-sys npm:next start --hostname 0.0.0.0"
+  }
+}
